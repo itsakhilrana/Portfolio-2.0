@@ -1,10 +1,10 @@
 import Portfolio from "../../assets/Profolio2.png";
 
-import SoundBee from "../../assets/SoundBee.svg";
-import ResumeToMars from '../../assets/resumetomars.svg'
-import HireT from '../../assets/Hire.svg'
-import AirlineT from '../../assets/Airline.svg'
-import Tripie from '../../assets/Tripie.svg'
+import SoundBee from "../../assets/SoundBee.png";
+import ResumeToMars from '../../assets/Resumetomars.png'
+import HireT from '../../assets/Hire.png'
+import AirlineT from '../../assets/Airline.png'
+import Tripie from '../../assets/Tripie.png'
 
 export const projects = [
   {
@@ -52,8 +52,8 @@ export const designs = [
   {
     key: 2,
     
-    name: "Hire",
-    image: HireT,
+    name: "Airline",
+    image: AirlineT,
   },
   {
     key: 3,
@@ -64,8 +64,8 @@ export const designs = [
   {
     key: 4,
     
-    name: "Airline",
-    image: AirlineT,
+    name: "Hire",
+    image: HireT,
   },
   {
     key: 5,
