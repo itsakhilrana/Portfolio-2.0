@@ -52,8 +52,8 @@ export const designs = [
   {
     key: 2,
     
-    name: "Airline",
-    image: AirlineT,
+    name: "Hire",
+    image: HireT,
   },
   {
     key: 3,
@@ -64,8 +64,8 @@ export const designs = [
   {
     key: 4,
     
-    name: "Hire",
-    image: HireT,
+    name: "Airline",
+    image: AirlineT,
   },
   {
     key: 5,
