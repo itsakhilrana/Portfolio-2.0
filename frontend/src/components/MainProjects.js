@@ -52,20 +52,20 @@ export default function MainProjects() {
                     </div>
 
                     <div className="p-6">
-                      <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1 bg-basic-yellowLight text-basic-blue p-2 rounded-md">
+                      <h2 className="tracking-widest text-white bg-white bg-opacity-25  text-xs title-font font-medium mb-4  text-basic-blue p-2 rounded-md">
                         {project.category}
                       </h2>
-                      <h1 className="title-font text-lg font-medium text-white mb-3">
+                      <h1 className="title-font text-lg font-medium text-blue-500 mb-3">
                         {project.name}
                       </h1>
                       <p className="leading-relaxed mb-3">{project.about}</p>
                       <div className="flex items-center flex-wrap ">
-                        <span className="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
+                        <span className="text-blue-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
                           <a href={project.github}>
                             <i className="fab fa-github fa-lg text-coolGray-400 w-4 h-4 mr-1" />
                           </a>
                         </span>
-                        <span className="text-gray-500 inline-flex items-center leading-none text-sm ml-0">
+                        <span className="text-blue-500 inline-flex items-center leading-none text-sm ml-0">
                           <a href={project.deployOn}>
                             <i className="far fa-browser fa-lg text-coolGray-400 w-4 h-4 text-center" />
                           </a>

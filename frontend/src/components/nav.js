@@ -21,7 +21,7 @@ export default function Nav() {
                   stiffness: 25,
                 }}
               >
-                <img src={logo} className="w-8 h-8 text-basic-yellow" alt="" />
+                <img src={logo} className="w-8 h-8" alt="" />
               </motion.span>
             </Link>
             <ul className="items-stretch hidden space-x-3 mt-4 ml-8 lg:flex">
@@ -38,9 +38,9 @@ export default function Nav() {
               >
                 <Link
                   to="/#about"
-                  className="customNeuStyleLink flex items-center font-semibold h-8 -mb-0.5 border-b-2 px-4 border-transparent "
+                  className=" flex items-center hover:text-blue-500  h-8 -mb-0.5 border-b-2 px-4 border-transparent "
                 >
-                  About
+                  about
                 </Link>
               </motion.li>
               <motion.li
@@ -56,9 +56,9 @@ export default function Nav() {
               >
                 <Link
                   to="/#skills"
-                  className="customNeuStyleLink flex items-center font-semibold h-8 -mb-0.5 border-b-2 px-4 border-transparent "
+                  className=" flex items-center hover:text-blue-500 h-8 -mb-0.5 border-b-2 px-4 border-transparent "
                 >
-                  Skills
+                  skills
                 </Link>
               </motion.li>
               <motion.li
@@ -74,9 +74,9 @@ export default function Nav() {
               >
                 <Link
                   to="/#projects"
-                  className="customNeuStyleLink flex items-center font-semibold h-8 -mb-0.5 border-b-2 px-4 border-transparent "
+                  className="flex items-center hover:text-blue-500 h-8 -mb-0.5 border-b-2 px-4 border-transparent "
                 >
-                  Projects
+                  projects
                 </Link>
               </motion.li>
               <motion.li
@@ -92,9 +92,9 @@ export default function Nav() {
               >
                 <Link
                   to="/#designs"
-                  className="customNeuStyleLink flex items-center font-semibold h-8 -mb-0.5 border-b-2 px-4 border-transparent "
+                  className="flex items-center hover:text-blue-500 h-8 -mb-0.5 border-b-2 px-4 border-transparent "
                 >
-                  Designs
+                  designs
                 </Link>
               </motion.li>
               <motion.li
@@ -110,9 +110,9 @@ export default function Nav() {
               >
                 <Link
                   to="/#contact"
-                  className="customNeuStyleLink flex items-center font-semibold h-8 -mb-0.5 border-b-2 px-4 border-transparent "
+                  className=" flex items-center hover:text-blue-500 h-8 -mb-0.5 border-b-2 px-4 border-transparent "
                 >
-                  Contact Me
+                  contact Me
                 </Link>
               </motion.li>
               <motion.li

@@ -12,7 +12,7 @@ export default function Contact() {
         hi, I'll try my best to get back to you!
       </h2>
 
-      <div className="flex flex-row space-x-4 justify-center pb-16 mt-4">
+      <div className="flex flex-row text-blue-500 space-x-4 justify-center pb-16 mt-4">
         <a href="https://www.linkedin.com/in/akhilhere/">
           <i className="fab fa-linkedin fa-2x " />
         </a>

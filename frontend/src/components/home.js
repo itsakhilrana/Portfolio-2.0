@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div id="home">
       
-      <section className="text-basic-black pt-20 w-full ">
+      <section className="pt-20 w-full ">
         <div className="container mx-auto flex flex-col justify-around p-6 sm:py-12 lg:py-24 lg:flex-row lg:justify-around ">
           <div className="flex flex-col justify-center p-4 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
             <motion.div
@@ -26,7 +26,7 @@ export default function Home() {
             >
              <span>Hey,&nbsp;I'm</span> 
               <motion.span
-                className="text-basic-yellow"
+                className=" text-blue-500"
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{
@@ -83,7 +83,7 @@ export default function Home() {
                 stiffness: 25,
               }}
             >
-              I'm a self-taught <strong>MERN Stack Developer</strong> who specializes in building
+              I'm a self-taught <strong className="text-blue-500">MERN Stack Developer</strong> who specializes in building
               exceptional web applications.
               <motion.span
             
@@ -138,7 +138,7 @@ export default function Home() {
                   <img
                     src={github}
                     alt="github"
-                    className="float-right ml-2"
+                    className="float-right ml-2 "
                   />
                   
                   

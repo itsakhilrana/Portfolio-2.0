@@ -79,8 +79,8 @@ export default function Skills() {
               className=" mx-10 my-6 fill-current md:mx-12 lg:m-0 w-12 h-12 "
               alt=""
             />
-            <i className="fab fa-react fa-3x text-language-react mx-10 my-6 fill-current md:mx-12 lg:m-0 w-12 h-12 " />
-            <i className="fab fa-node-js fa-3x text-language-node mx-10 my-6 fill-current md:mx-12 lg:m-0 w-12 h-12 " />
+            <i className="fab fa-react fa-3x text-blue-500 mx-10 my-6 fill-current md:mx-12 lg:m-0 w-12 h-12 " />
+            <i className="fab fa-node-js fa-3x text-green-500 mx-10 my-6 fill-current md:mx-12 lg:m-0 w-12 h-12 " />
             <img
               src={mongo}
               className=" mx-10 my-6 fill-current md:mx-12 lg:m-0 w-12 h-12 "
@@ -111,7 +111,7 @@ export default function Skills() {
               className=" mx-10 my-6 fill-current md:mx-12 lg:m-0 w-12 h-12 "
               alt=""
             />
-            <i className="fab fa-git-alt fa-3x text-language-git mx-10 my-6 fill-current md:mx-12 lg:m-0 w-12 h-12 " />{" "}
+            <i className="fab fa-git-alt fa-3x text-red-500 mx-10 my-6 fill-current md:mx-12 lg:m-0 w-12 h-12 " />{" "}
           </div>
         </div>
       </section>

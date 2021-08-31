@@ -9,33 +9,6 @@ module.exports = {
       height: ["hover", "focus"],
       cursor: ["hover", "focus"],
     },
-
-    colors: {
-      transparent: "transparent",
-      current: "currentColor",
-      basic: {
-        white: "#ffffff",
-        gray: "#E5E5E5",
-        yellow: "#FCA311",
-        blue: "#14213D",
-        black: "#231E1B",
-        yellowLight : '#fada5e'
-      },
-      gradient: {
-        blue: "#ffdd00",
-        cream: "#fbb034",
-      },
-      project: {
-        yellow: "#EFCB95",
-      },
-
-      language: {
-        react: "#61DBFB",
-        redux: "#764abc",
-        node: "#3C873A",
-        git: "#f34f29",
-      },
-    },
   },
   variants: {
     extend: {},

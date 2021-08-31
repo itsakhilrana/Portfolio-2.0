@@ -10,7 +10,7 @@ export const projects = [
   {
     key: 1,
     name: "SoundBee",
-    category: "React.js | Node.js | MongoDB | Express | Redux",
+    category: "React.js | Node.js | MongoDB | Express ",
     about:
       "eCommerce platform built with the MERN stack & Redux. Implemented auth middleware using express and bcrypt for password encryption. Created a global predictable state container for the frontend using ReduxJS. Created the UI wireframes in Figma and implemented the responsive design. Designed schema for no-SQL DB (mongodb) using the mongoose.",
     image: SoundBee,
@@ -32,7 +32,7 @@ export const projects = [
   {
     key: 3,
     name: "My Portfolio",
-    category: "React.js | Functional Components | TailwindCSS",
+    category: "React.js | TailwindCSS",
     about:
       "Created the UI wireframes in Figma and implemented the responsive design. Built custom & reusable components for elements like navbar and footer. Used Tailwind Css library for implementing a mobile-first responsive UI for the entire app. Added CSS animations using with Framer motion",
     image: Portfolio,
