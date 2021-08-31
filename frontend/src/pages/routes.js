@@ -9,6 +9,7 @@ import About from "../components/about";
 import Skills from "../components/skills";
 import Designs from "../components/Designs";
 import Contact from "../components/contact";
+import PagenotFound from "../components/PagenotFound";
 
 export default function Routes() {
   return (
@@ -22,6 +23,7 @@ export default function Routes() {
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/designs" component={Designs} />
           <Route exact path="/contact" component={Contact} />
+          <Route  component={PagenotFound} />
         </Switch>
       </Router>
     </>

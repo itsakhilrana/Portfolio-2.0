@@ -1,7 +1,7 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import { motion } from "framer-motion";
-import logo from "../assets/logoo.svg";
+import logo from "../assets/newlogo.svg";
 
 import Sidebar from "./sidebar/sidebar";
 
@@ -21,7 +21,7 @@ export default function Nav() {
                   stiffness: 25,
                 }}
               >
-                <img src={logo} className="w-8 h-8" alt="" />
+                <img src={logo} className="w-16 h-12" alt="" />
               </motion.span>
             </Link>
             <ul className="items-stretch hidden space-x-3 mt-4 ml-8 lg:flex">
@@ -140,7 +140,7 @@ export default function Nav() {
             }}
           >      
             <a  target={"_blank"} href="https://drive.google.com/file/d/1fS1HntvtsrtXYTjvTYIb79cqv9TgpJKf/view?usp=sharing" rel="noopener noreferrer">
-            <button className="customNeuStyleLink px-8 py-3 font-semibold rounded outline-none">
+            <button className="customResume bg-blue-500 hover:bg-blue-400 px-8 py-3 font-semibold rounded outline-none">
                 Resume
               </button>
             </a>

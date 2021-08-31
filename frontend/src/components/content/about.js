@@ -5,22 +5,22 @@ import Develop from "../../assets/about/develop.svg";
 const content = [
   {
     key: 1,
-    name: "Analyse",
-    desc: "Analyse the problem sets to find a better solution to the issue.",
-    image: Analysis,
+    name: "Frontend",
+    desc: "Convert a user-friendly UI wireframes into structure code.",
+    image: "fas fa-code",
   },
   {
     key: 2,
-    name: "Design",
-    desc: "Design an interactive and user-friendly UI of the solution",
-    image: Design,
+    name: "Backend",
+    desc: "Develop a backend application to deliver the solution.",
+    image: "fas fa-database",
   },
 
   {
     key: 3,
-    name: "Develop",
-    desc: "Develop a full-stack web application to deliver the solution",
-    image: Develop,
+    name: "Design",
+    desc: "Design an interactive and user-friendly UI of the solution.",
+    image: "fas fa-paint-brush"
   },
 ];
 
