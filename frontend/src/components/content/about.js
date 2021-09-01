@@ -6,7 +6,7 @@ const content = [
   {
     key: 1,
     name: "Frontend",
-    desc: "Convert a user-friendly UI wireframes into structure code.",
+    desc: "Convert a user-friendly UI wireframes into structured code.",
     image: "fas fa-code",
   },
   {
