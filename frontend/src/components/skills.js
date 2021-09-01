@@ -38,7 +38,7 @@ export default function Skills() {
 
   return (
     <>
-      <section className="p-6 my-6" id="skills">
+      <section className="p-6 mb-6" id="skills">
         <div className="p-4 mx-auto text-center md:px-10 lg:px-32 xl:max-w-3xl py-12">
           <h3 className="text-4xl font-extrabold leading-none sm:text-4xl">
             Languages

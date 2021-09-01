@@ -1,4 +1,4 @@
-import Portfolio from "../../assets/Profolio2.png";
+import Portfolio from "../../assets/Portimage.PNG";
 
 import SoundBee from "../../assets/SoundBee.png";
 import ResumeToMars from '../../assets/Resumetomars.png'

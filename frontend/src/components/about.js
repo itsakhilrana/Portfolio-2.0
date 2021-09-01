@@ -28,7 +28,7 @@ export default function About() {
   }, [inView])
   return (
     <div id="about">
-      <div className="min-h-full py-8 ">
+      <div className="min-h-full pt-4 ">
         <section>
           <motion.p
             className="text-center text-md lg:max-w-2xl mx-auto sm:max-w-md md:max-w-md md:p-0 p-4"
@@ -45,25 +45,25 @@ export default function About() {
             functional applications.
           </motion.p>
           <div
-            className="content-center lg:flex lg:justify-center lg:items-center"
+            className="content-center p-10 lg:flex lg:justify-center lg:items-center"
             ref={ref}
           >
             {content.map((cont) => {
               return (
                 <motion.div
-                  className="flex justify-center pt-10 m-auto lg:w-1/4 lg:mx-6 lg:my-8 ml-0"
+                  className="lg:w-1/4 lg:mx-6 lg:my-8 ml-0"
                   animate={animation}
                   key={cont.key}
                 >
-                  <div className="customNeuStyle flex flex-col items-center text-center pt-4 pb-4 w-64 h-48 mt-6 ml-6  rounded-lg shadow-lg">
-                    <div className="bg-blue-500 text-2xl w-16 h-20 rounded-full flex justify-center items-center">
+                  <div className="customNeuStyle my-6 p-4 h-52 flex flex-col items-center text-center  rounded-lg shadow-lg">
+                    <div className="bg-blue-500 text-2xl w-12 h-12 rounded-full flex justify-center items-center">
                       <i className={cont.image}></i>
                     </div>
-                    <div className="w-48 h-32 ">
-                      <h3 className="pt-2 text-xl font-semibold ">
+                    <div className="">
+                      <h3 className="mt-2 text-xl font-semibold ">
                         {cont.name}
                       </h3>
-                      <p className="pt-1 text-sm ">{cont.desc}</p>
+                      <p className="mt-1 text-lg ">{cont.desc}</p>
                     </div>
                   </div>
                 </motion.div>

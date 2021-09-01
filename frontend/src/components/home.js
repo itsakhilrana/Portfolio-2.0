@@ -1,6 +1,6 @@
 import React from "react";
 
-import profile from "../assets/HeroImage.svg";
+import profile from "../assets/Heroimage.png";
 import github from "../assets/github.svg";
 import linkedin from '../assets/linkedin.svg'
 import { motion } from "framer-motion";
@@ -26,7 +26,7 @@ export default function Home() {
             >
              <span>Hey,&nbsp;I'm</span> 
               <motion.span
-                className=" text-blue-500"
+                
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{
@@ -47,8 +47,8 @@ export default function Home() {
                   type: "spring",
                   stiffness: 25,
                 }}
-              className="flex flex-row flex-wrap xl:justify-start text-5xl font-bold leading-none justify-center">I 
-              <p>&nbsp;speak&nbsp;</p>
+              className="flex text-blue-500 flex-row flex-wrap xl:justify-start text-5xl font-bold leading-none justify-center"> 
+              <p style={{color:"aliceblue"}}>I speak&nbsp;</p>
               <Typewriter
           
                 onInit={(typewriter) => {

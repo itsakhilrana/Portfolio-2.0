@@ -3,7 +3,7 @@
 > Simple Portfolio built with the ReactJs & Tailwind Css.
 This is the [Live Link of Portfolio](http://akhilranaportfolio.herokuapp.com/)
 
-![screenshot](https://github.com/itsakhilrana/Portfolio-2.0/blob/master/frontend/src/assets/Profolio2.png)
+![screenshot](https://github.com/itsakhilrana/Portfolio-2.0/blob/master/frontend/src/assets/Portimage.PNG)
 
 ## About the Project
 
