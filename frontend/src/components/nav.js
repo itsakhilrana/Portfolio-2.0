@@ -115,6 +115,7 @@ export default function Nav() {
                   contact Me
                 </Link>
               </motion.li>
+
               <motion.li
                 className="flex"
                 initial={{ y: -250 }}
@@ -125,7 +126,16 @@ export default function Nav() {
                   type: "spring",
                   stiffness: 25,
                 }}
-              ></motion.li>
+              >
+                <a
+                  href="https://dev.to/undefinedhere"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" cursor-pointer flex items-center hover:text-blue-500 h-8 -mb-0.5 border-b-2 px-4 border-transparent "
+                >
+                  my blogs
+                </a>
+              </motion.li>
             </ul>
           </div>
           <motion.div

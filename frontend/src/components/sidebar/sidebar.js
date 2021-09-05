@@ -30,14 +30,20 @@ function Navbar() {
             <div className="mt-5">
             {SidebarData.map((item, index) => {
               return (
-                <li key={index} className="nav-text text-blue-500  mb-5">
+                <li key={index} className="nav-text text-blue-500  mb-4">
                   <Link to={item.path}>
                     {item.icon}
                     <span>{item.title}</span>
                   </Link>
                 </li>
+                
               );
             })}
+            <li className='nav-text text-blue-500 mb-4'>
+            <a  target={"_blank"} href="https://dev.to/undefinedhere" rel="noopener noreferrer">
+             <FaIcons.FaEnvelopeOpenText></FaIcons.FaEnvelopeOpenText> <span>My blogs</span>
+            </a>
+          </li>
              <li className='nav-text text-blue-500 '>
             <a  target={"_blank"} href="https://drive.google.com/file/d/1fS1HntvtsrtXYTjvTYIb79cqv9TgpJKf/view?usp=sharing" rel="noopener noreferrer">
              <FaIcons.FaEnvelopeOpenText></FaIcons.FaEnvelopeOpenText> <span>Resume</span>

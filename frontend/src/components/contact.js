@@ -20,16 +20,16 @@ export default function Contact() {
         <a href="https://github.com/itsakhilrana">
           <i className="fab fa-github fa-2x " />
         </a>
-        <a href="https://twitter.com/itsakhilrana">
+        <a href="https://twitter.com/undefinedhere">
           <i className="fab fa-twitter fa-2x " />
+        </a>
+        
+        <a href="https://dev.to/undefinedhere">
+          <i className="fab fa-dev fa-2x " />
         </a>
         <a href="https://www.instagram.com/itsakhilrana/">
           <i className="fab fa-instagram fa-2x " />
         </a>
-        {/* <a href="https://medium.com/link/">
-          <i className="fab fa-medium fa-2x " />
-        </a> */}
-
         <a href={`mailto:${email}`}>
           <i className="far fa-envelope fa-2x " />
         </a>
